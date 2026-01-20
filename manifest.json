@@ -1,0 +1,20 @@
+{
+    "name": "Bubbluu Companion",
+    "short_name": "Bubbluu",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff0f3",
+    "theme_color": "#ff4d94",
+    "icons": [
+        {
+            "src": "original_panda.jpg",
+            "sizes": "192x192",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "original_panda.jpg",
+            "sizes": "512x512",
+            "type": "image/jpeg"
+        }
+    ]
+}

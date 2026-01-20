@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Bubbluu</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#fff0f3">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Background Stars -->
+        <div class="stars" id="star-container"></div>
+
+        <!-- Header -->
+        <header>
+            <div class="level-badge" id="level-display">LEVEL 1 COMPANION</div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Mascot Area -->
+            <div class="mascot-container">
+                <div class="mascot-glow"></div>
+                <img src="original_panda.jpg" alt="Bubbluu Panda" class="mascot-image" id="mascot">
+                
+                <!-- Message Bubble -->
+                <div class="message-bubble hidden" id="message-bubble">
+                    <p id="message-text">Hi I'm Bubbluu!</p>
+                </div>
+            </div>
+
+            <!-- Timer Section -->
+            <div class="timer-card">
+                <h2>NEXT DIP IN:</h2>
+                <div class="timer-display" id="timer">02:00:00</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <button class="action-btn hydrate-btn" id="hydrate-btn">
+                    <span>💧</span>
+                    DRANK WATER!
+                </button>
+            </div>
+
+            <!-- Interaction Buttons -->
+            <div class="controls">
+                <button class="icon-btn" id="talk-btn">
+                    <span>💬</span>
+                    TALK TO IT
+                </button>
+                <button class="icon-btn" id="draw-btn">
+                    <span>🎨</span>
+                    DRAW
+                </button>
+            </div>
+        </main>
+
+        <!-- Drawing Modal -->
+        <div class="modal hidden" id="drawing-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>DRAW YOUR FRIEND! 🎨</h3>
+                    <button class="close-btn" id="close-draw">×</button>
+                </div>
+                <canvas id="drawing-canvas" width="320" height="320"></canvas>
+                <div class="modal-actions">
+                    <button class="text-btn" id="erase-btn">ERASE</button>
+                    <button class="save-btn" id="save-draw-btn">START DAY! ✨</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(reg => console.log('SW registered!', reg))
+                .catch(err => console.log('SW failed!', err));
+        }
+    </script>
+</body>
+</html>

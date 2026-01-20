@@ -1,11 +1,16 @@
+# System files
 .DS_Store
-/.build
-/Packages
-/*.xcodeproj
-/*.xcworkspace
-/DerivedData
-.swiftpm/xcode/package.xcworkspace/xcuserdata
-Bubbluu.app
-Bubbluu-device.app
-*.o
-*.swiftmodule
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS generated files
+.Spotlight-V100
+.Trashes
