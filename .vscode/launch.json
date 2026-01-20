@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:push-1}",
+            "name": "Debug HitaApp",
+            "program": "${workspaceFolder:push-1}/.build/debug/HitaApp",
+            "preLaunchTask": "swift: Build Debug HitaApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:push-1}",
+            "name": "Release HitaApp",
+            "program": "${workspaceFolder:push-1}/.build/release/HitaApp",
+            "preLaunchTask": "swift: Build Release HitaApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:push-1}",
+            "name": "Debug Bubbluu",
+            "program": "${workspaceFolder:push-1}/.build/debug/Bubbluu",
+            "preLaunchTask": "swift: Build Debug Bubbluu"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:push-1}",
+            "name": "Release Bubbluu",
+            "program": "${workspaceFolder:push-1}/.build/release/Bubbluu",
+            "preLaunchTask": "swift: Build Release Bubbluu"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+  "": {
+    "swift-dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/master.swiftdeps"
+  },
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/AudioManager.swift": {
+    "dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/AudioManager.d",
+    "object": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/AudioManager.swift.o",
+    "swiftmodule": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/AudioManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/AudioManager.swiftdeps",
+    "diagnostics": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/AudioManager.dia"
+  },
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/ContentView.swift": {
+    "dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/ContentView.d",
+    "object": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/ContentView.swift.o",
+    "swiftmodule": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/ContentView.dia"
+  },
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/DrawingData.swift": {
+    "dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DrawingData.d",
+    "object": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DrawingData.swift.o",
+    "swiftmodule": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DrawingData~partial.swiftmodule",
+    "swift-dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DrawingData.swiftdeps",
+    "diagnostics": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DrawingData.dia"
+  },
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/DrawingView.swift": {
+    "dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DrawingView.d",
+    "object": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DrawingView.swift.o",
+    "swiftmodule": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DrawingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DrawingView.swiftdeps",
+    "diagnostics": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DrawingView.dia"
+  },
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/Extensions.swift": {
+    "dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/Extensions.d",
+    "object": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/Extensions.swift.o",
+    "swiftmodule": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/Extensions.swiftdeps",
+    "diagnostics": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/Extensions.dia"
+  },
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/HitaApp.swift": {
+    "dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/HitaApp.d",
+    "object": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/HitaApp.swift.o",
+    "swiftmodule": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/HitaApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/HitaApp.swiftdeps",
+    "diagnostics": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/HitaApp.dia"
+  },
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/HitaModel.swift": {
+    "dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/HitaModel.d",
+    "object": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/HitaModel.swift.o",
+    "swiftmodule": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/HitaModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/HitaModel.swiftdeps",
+    "diagnostics": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/HitaModel.dia"
+  },
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/StarFieldView.swift": {
+    "dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/StarFieldView.d",
+    "object": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/StarFieldView.swift.o",
+    "swiftmodule": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/StarFieldView~partial.swiftmodule",
+    "swift-dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/StarFieldView.swiftdeps",
+    "diagnostics": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/StarFieldView.dia"
+  },
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/resource_bundle_accessor.d",
+    "object": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/resource_bundle_accessor.dia"
+  }
+}

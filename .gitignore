@@ -3,4 +3,9 @@
 /Packages
 /*.xcodeproj
 /*.xcworkspace
-.swiftpm
+/DerivedData
+.swiftpm/xcode/package.xcworkspace/xcuserdata
+Bubbluu.app
+Bubbluu-device.app
+*.o
+*.swiftmodule

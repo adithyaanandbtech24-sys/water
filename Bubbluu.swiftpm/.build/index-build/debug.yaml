@@ -1,0 +1,58 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "Bubbluu-arm64-apple-macosx26.0-debug.module": ["<Bubbluu-arm64-apple-macosx26.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<Bubbluu-arm64-apple-macosx26.0-debug.module>"]
+  "test": ["<Bubbluu-arm64-apple-macosx26.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/AudioManager.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/ContentView.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/DrawingData.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/DrawingView.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/Extensions.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/HitaApp.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/HitaModel.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/StarFieldView.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DerivedSources/resource_bundle_accessor.swift"]
+    outputs: ["/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/sources"]
+    description: "Write auxiliary file /Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/sources"
+
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu_Bubbluu.bundle/panda.png":
+    tool: copy-tool
+    inputs: ["/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/Resources/panda.png"]
+    outputs: ["/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu_Bubbluu.bundle/panda.png"]
+    description: "Copying /Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/Resources/panda.png"
+
+  "/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<Bubbluu-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Modules/Bubbluu.swiftmodule"]
+    outputs: ["<Bubbluu-arm64-apple-macosx26.0-debug.module>"]
+
+  "Bubbluu-arm64-apple-macosx26.0-debug.module-resources":
+    tool: phony
+    inputs: ["/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu_Bubbluu.bundle/panda.png"]
+    outputs: ["<Bubbluu-arm64-apple-macosx26.0-debug.module-resources>"]
+
+  "C.Bubbluu-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/AudioManager.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/ContentView.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/DrawingData.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/DrawingView.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/Extensions.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/HitaApp.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/HitaModel.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/StarFieldView.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/DerivedSources/resource_bundle_accessor.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","<Bubbluu-arm64-apple-macosx26.0-debug.module-resources>","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/sources"]
+    outputs: ["/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Modules/Bubbluu.swiftmodule"]
+    description: "Compiling Swift Module 'Bubbluu' (9 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","Bubbluu","-emit-dependencies","-emit-module","-emit-module-path","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Modules/Bubbluu.swiftmodule","-output-file-map","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/output-file-map.json","-incremental","@/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Bubbluu.build/sources","-I","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE","-module-cache-path","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","Bubbluu_main","-swift-version","5","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","bubbluu_swiftpm"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Sources/","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Package.swift","/Users/adithyaanand/Documents/push-1/Bubbluu.swiftpm/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
